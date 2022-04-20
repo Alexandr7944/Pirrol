@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #000000;
+  list-style-type: none;
+  font-family: 'Montserrat';
+}
+.banner {
+  width: 100%;
+  background-color: #e9e9e9;
+}
+.banner-conteiner {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 800px;
+  padding: 38px 15px 195px;
+}
+.header {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 159px;
+}
+.logo-img {
+  width: 31px;
+}
+.menu-list {
+  display: flex;
+}
+.menu-item-link {
+  margin-left: 29px;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 500;
+  vertical-align: top;
+}
+.menu-item-link:hover {
+  color: #10c9c3;
+}
+.banner-body {
+  margin-left: 663px;
+}
+.banner-title {
+  font-size: 38px;
+  color: #1d1d1d;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.banner-text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #787878;
+  margin: 0 0 15px 5px;
+  font-family: "Nunito Sans";
+}
+.banner-btn {
+  width: 180px;
+  height: 54px;
+  margin-left: 5px;
+  background-color: #10c9c3;
+  border: none;
+}
+.banner-button-text {
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about {
+    width: 630px;
+    padding: 95px 0 100px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+.about-title {
+    font-size: 30px;
+    color: #191919;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 28px;
+}
+.about-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #787878;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+}
+.signature {
+    margin-top: 30px;
+}
+.skills {
+    width: 100%;
+    padding: 155px 0 130px;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.skills-conteiner {
+    max-width: 1200px;
+    min-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.skills-title {
+    font-size: 30px;
+    color: #171717;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.skills-row {
+    margin-bottom: 34px;
+}
+.skills-item {
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: 500;
+    margin-right: 15px;
+}
+.scale {
+    width: 500px;
+    height: 3px;
+    background-color: #d8d8d8;
+    margin-top: 16px;
+}
+.scale-meaning-design {
+    width: 336px;
+    height: 100%;
+    background-color: #10c9c3;
+}
+.scale-meaning-development {
+    width: 428px;
+    height: 100%;
+    background-color: #10c9c3;
+}
+.scale-meaning-marketing {
+    width: 280px;
+    height: 100%;
+    background-color: #10c9c3;
+}
+.skills-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 50%;
+  background-color: #e9e9e9;
+}
+.numbers {
+  width: 100%;
+  background-color: #10c9c3;
+}
+.numbers-conteiner {
+  margin: 0 auto;
+  max-width: 1200px;
+  min-width: 800px;
+  padding: 100px 15px 95px;
+  display: flex;
+}
+.number-row {
+  display: flex;
+  width: 250px;
+}
+.number-row:nth-child(n+2) {
+  margin-left: 50px;
+}
+.number-img{
+  width: 40px;
+  height: 40px;
+  margin-left: 5px;
+}
+.number-img {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px;
+}
+.portfolio {
+  background-image: url("../img/pe-7s-portfolio.png");
+}
+.clock {
+  background-image: url("../img/pe-7s-clock.png");
+}
+.star {
+  background-image: url("../img/pe-7s-star.png");
+}
+.like {
+  background-image: url("../img/pe-7s-like.png");
+}
+.number-body {
+  margin-left: 30px;
+}
+.number-meaning {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.number-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-weight: 500;
+}
+.work-conteiner {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  min-width: 800px;
+  height: 600px;
+  margin: 0 auto;
+}
+.work-item {
+  width: 300px;
+  height: 300px;
+}
+.work-item-2, .work-item-4, .work-item-5, .work-item-7 {
+  background-color: #dddddd;
+}
+.work-item-1, .work-item-3, .work-item-6, .work-item-8 {
+  background-color: #838383;
+}
+.work-item:hover {
+  background-color: #141414;
+  background-image: url(../img/pe-7s-look.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 40px;
+}
+.work-text {
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #8e8e8e;
+  font-weight: 500;
+  padding: 44px 0;
+  background-color: #f5f5f5;
+}
+.work-process {
+  margin: 0 auto;
+}
+.work-process-title {
+  font-size: 30px;
+  letter-spacing: 0px;
+  line-height: 2;
+  color: #191919;
+  font-weight: 500;
+  text-align: center;
+}
+.work-process-text {
+  
+}
+.work-process-video {}
